@@ -37,7 +37,7 @@ function estEnVie(personnage) {
 }
 
 console.log("=== DÉBUT DU COMBAT ===");
-console.log(`${héro.nom}: ${héro.pointsDeVie} PV | Attaque: ${héro.attaque} | Précision: ${héro.precision * 100}%`);  // console.log qui affiche les characteristics des personnages. 
+console.log(`${héro.nom}: ${héro.pointsDeVie} PV | Attaque: ${héro.attaque} | Précision: ${héro.precision * 100}%`);  
 console.log(`${monstre.nom}: ${monstre.pointsDeVie} PV | Attaque: ${monstre.attaque} | Précision: ${monstre.precision * 100}%`);
 
 let tour = 1;  
@@ -59,4 +59,5 @@ if (estEnVie(héro)) {
   console.log(`${héro.nom} remporte le combat avec ${héro.pointsDeVie} PV restants!`); 
 } else {     
   console.log(`${monstre.nom} remporte le combat avec ${monstre.pointsDeVie} PV restants!`); 
+
 }
